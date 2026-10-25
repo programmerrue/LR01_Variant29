@@ -1,0 +1,51 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 5,
+  "metadata": {
+    "kernelspec": {
+      "name": "Julia",
+      "display_name": "Julia"
+    },
+    "language_info": {
+      "name": "julia"
+    },
+    "engee": {}
+  },
+  "cells": [
+    {
+      "id": "776665e7",
+      "cell_type": "code",
+      "source": [
+        "VERSION\nversioninfo()"
+      ],
+      "execution_count": 0,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Julia Version 1.12.6\nCommit 703999f32c (2026-08-02 22:16 UTC)\nBuild Info:\n  GitLab CI build\n\n    Note: This is an unofficial build, please report bugs to the project\n    responsible for this build and not to the Julia project unless you can\n    reproduce the issue using official builds available at https://julialang.org\n\nPlatform Info:\n  OS: Linux (x86_64-linux-gnu)\n  CPU: 112 × Intel(R) Xeon(R) Platinum 8180 CPU @ 2.50GHz\n  WORD_SIZE: 64\n  LLVM: libLLVM-18.1.7 (ORCJIT, skylake-avx512)\n  GC: Built with stock GC\nThreads: 5 default, 3 interactive, 5 GC (on 112 virtual cores)\nEnvironment:\n  JULIA_LSP_STORE_PATH = /user/lsp_store\n  JULIA_CPU_TARGET = generic;sandybridge,-xsaveopt,clone_all;haswell,-rdrnd,base(1)\n  JULIA_LSP_PORT = 3751\n  JULIA_NUM_PRECOMPILE_TASKS = 8\n  JULIA_PKG_PRECOMPILE_AUTO = 0\n  JULIA_DEPOT_PATH = /user/.packages:/opt/depot/core:/opt/depot/mtl:/opt/depot/demos:/opt/depot/stdlib\n  JULIA_PATH = /usr/local/julia\n  LD_LIBRARY_PATH = /ml-packages/lib/python3.11/site-packages/nvidia/cublas/lib:/ml-packages/lib/python3.11/site-packages/nvidia/cuda_runtime/lib:/ml-packages/lib/python3.11/site-packages/nvidia/cudnn/lib\n  JULIA_PROJECT = /user/.project/\n  JULIA_DA_STORE_PATH = /user/da_store\n  JULIA_PKG_SERVER = http://pkgserver.pkgserver.svc.cluster.local\n  JULIA_NUM_THREADS = 7,1\n  JULIA_DA_PORT = 3752\n  JULIA_DEBUG = BackendLib,AbstractAPI\n"
+        }
+      ],
+      "metadata": {
+        "name": "Section name",
+        "engee": {
+          "isDisplay": true,
+          "isParagraph": false,
+          "isClosedParagraph": false,
+          "amountHideCellsInside": 0,
+          "codeOutputView": "col",
+          "codeOutputHidden": false,
+          "outputInfo": {
+            "isExpanded": false,
+            "scrollTop": 3.200000047683716
+          },
+          "maskInfo": {
+            "isMaskVisible": true,
+            "isEditorVisible": true,
+            "isAutoplayActive": false
+          }
+        }
+      }
+    }
+  ]
+}
